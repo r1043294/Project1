@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body,
+      html {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #1a2238;
+        height: 100%;
+        margin: 0;
+      }
+
+      .bg {
+        background-image: url("foto/contact/pexels-photo-821754.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+      }
+      nav a {
+        text-decoration: none;
+        color: #fff;
+        margin-left: 35px;
+        transition: 3s;
+      }
+
+      nav a:hover {
+        color: aqua;
+      }
+
+      .flex {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      
+      h1,
+      h2 {
+        color: #f9a602;
+      }
+
+      p {
+        color: #fff;
+      }
+
+      div.sticky {
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        background-color: black;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #1a2238;
+        color: #f9a602;
+      }
+
+      form {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        border-radius: 8px;
+        margin: 20px auto;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sticky">
+      <nav class="flex">
+        <a href="index.html">Home</a>
+        <a href="hobbys.html">Hobby’s/Interesses</a>
+        <a href="ervaring.html">Ervaring</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+
+    <div class="bg">
+      <h1>Contactgegeven</h1>
+      <p>Naam: Nuno Mateus M</p>
+      <p><i class="fa-regular fa-phone fa-shake"></i>GSM: 0485867045</p>
+      <p>Email: r10432@student.thomasmore.be</p>
+      <p>Linkd-in: matesno@gmail.com</p>
+
+      <form action="https://tm-startweb.be/forms.php" method="post">
+        <h2>Voornaam:</h2>
+        <div>
+          <label for="voornaam"></label>
+          <input
+            class="li"
+            type="naam"
+            id="voornaam"
+            placeholder="Voornaam"
+            name="voornaam"
+          />
+        </div>
+
+        <h2>Email:</h2>
+        <div>
+          <label for="Email"></label>
+          <input
+            class="li"
+            type="Email"
+            id="Email"
+            placeholder="Email"
+            name="Email"
+          />
+        </div>
+
+        <h2>Onderwerp:</h2>
+        <div>
+          <label for="Onderwerp"></label>
+          <input
+            class="li"
+            type="Onderwerp"
+            id="Onderwerp"
+            placeholder="Onderwerp"
+            name="Onderwerp"
+          />
+        </div>
+
+        <h2>Vragen?:</h2>
+        <div>
+          <label for="Vragen"></label>
+          <input
+            class="li"
+            type="Vragen"
+            id="Vragen"
+            placeholder="Vragen"
+            name="Vragen"
+          />
+        </div>
+
+        <div>
+          <label for="Verzenden"></label>
+          <input
+            type="submit"
+            value="Verzenden"
+            id="Verzenden"
+            name="Verzenden"
+          />
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <p>2024 Nuno Mateus.</p>
+    </footer>
+  </body>
+</html>

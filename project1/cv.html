@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .bg{
+            background-image: url('foto/cvenvaardigheden/pexels-photo-590044.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+        }
+
+        div.sticky{
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+            background-color: black;
+         }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1.1em;
+        }
+
+        header a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-top: 20px;
+            padding: 10px 0;
+        }
+
+        section h2 {
+            font-size: 1.8em;
+            border-bottom: 2px solid #F9A602;
+            padding-bottom: 5px;
+        }
+
+        .experience {
+            margin-bottom: 15px;
+        }
+
+        .experience h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #F9A602; 
+        }
+
+        .experience p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .li {
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1A2238;
+            color: #F9A602;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+
+        .cv {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="sticky">
+        <nav class="flex">
+            <a href="index.html">Home</a>
+            <a href="hobbys.html">Hobby’s/Interesses</a>
+            <a href="ervaring.html">Ervaring</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+    
+    <div class="bg"></div>
+
+    <div class="container">
+        <header>
+            <h1>Nuno Mateus M</h1>
+            <p>Email: <a href="mailto:r10432@student.thomasmore.be" style="color: #F9A602;">r10432@student.thomasmore.be</a> | Telefoon: <a href="tel:0485867045" style="color: #F9A602;">0485867045</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/jouwprofiel" style="color: #F9A602;">linkedin.com/in/jouwprofiel</a></p>
+            <img class="cv" src="foto/cvenvaardigheden/Schermafbeelding 2024-10-13 013920.png" alt="CV van Nuno Mateus">
+        </header>
+
+        <section>
+            <h2>Profiel</h2>
+            <p>Ik heet Nuno en ik ben <span class="li">20 jaar</span>.</p>
+            <p>Ik ben een student die momenteel bezig is met de graduaatsopleiding Programmeren aan Thomas More. Ik ben enthousiast, leergierig, en een positieve werker.</p>
+        </section>
+
+        <section>
+            <h2>Werkervaring</h2>
+            <div class="experience">
+                <h3>Fiesta Europa</h3>
+                <p><strong>Barman</strong> - Juli 2021 tot Juli 2021</p>
+                <ul>
+                    <li>Klanten bedienen</li>
+                    <li>Dranken voorbereiden</li>
+                    <li>Betaling en afrekenen</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h3>Bobbejaanland</h3>
+                <p><strong>Schoonmaak</strong> - Augustus 2021 tot Augustus 2021</p>
+                <ul>
+                    <li>Reinigen van ruimtes</li>
+                    <li>Onderhoud van apparatuur</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h3>Albert Heijn</h3>
+                <p><strong>Winkelmedewerker</strong> - Augustus 2021 tot Heden</p>
+                <ul>
+                    <li>Vakkenvullen</li>
+                    <li>Kassamedewerker</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h3>Limar</h3>
+                <p><strong>Inpak</strong> - Oktober 2021 tot November 2021</p>
+                <ul>
+                    <li>Inpakken van chocolade</li>
+                    <li>Kwaliteitscontrole</li>
+                    <li>Dozen stapelen</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h3>Van Rooijen Logistiek</h3>
+                <p><strong>Orderpicken</strong> - Oktober 2022 tot November 2022</p>
+                <ul>
+                    <li>Voorbereiding van bestellingen</li>
+                    <li>Rijden met een elektrisch transpalet</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h3>Van Genechten Biermans</h3>
+                <p><strong>Laden van vrachtwagen, productie</strong> - Juli 2023 tot Augustus 2024</p>
+                <ul>
+                    <li>Voorbereiding van bestellingen</li>
+                    <li>Rijden met een elektrisch transpalet</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Opleiding</h2>
+            <p><strong>PT2O, Hout, 2018</strong></p>
+            <ul>
+                <li><i class="fa-solid fa-graduation-cap"></i> Diploma behaald</li>
+            </ul>
+            <p><strong>Thomas More, Programmeren, 2024</strong></p>
+        </section>
+
+        <section>
+            <h2>Talen</h2>
+            <ul>
+                <li>Portugees - Moedertaal of tweetalig</li>
+                <li>Nederlands - Vloeiend</li>
+                <li>Engels - Goed</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Vaardigheden</h2>
+            <ul>
+                <li>Word - Redelijke ervaring</li>
+                <li>PowerPoint - Redelijke ervaring</li>
+                <li>AutoCAD - Redelijke ervaring</li>
+                <li>HTML - Beginner</li>
+                <li>CSS - Beginner</li>
+                <li>C# - Beginner</li>
+            </ul>
+        </section>
+        <footer>
+            <p>2024 Nuno Mateus.</p>
+          </footer>
+</body>
+</html>
