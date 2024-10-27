@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="imag/x-icon" href="favicon/favicon.ico" />
+    <title>Contact</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      h1,
+      h2 {
+        color: #f9a602;
+      }
+
+      .pe {
+        color: black;
+      }
+
+      .bg {
+        background-image: url("img/contact/pexels-photo-821754.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+      }
+      .colform {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nuno_MM</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="hobby's.html"
+                >Hobby’s/Interesses</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="ervaring.html"
+                >Ervaring</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="cv.html"
+                >CV</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="bg pe">
+      <h1>Contactgegeven</h1>
+      <p>Naam: Nuno Mateus M</p>
+      <p>Studierichting: Programmeren</p>
+      <p>Woonplaats: Turnhout</p>
+      <p>Adres: Steenweg op Antwerpen</p>
+      <p>Land: België</p>
+      <p><i class="fa-regular fa-phone fa-shake"></i>GSM: 0485067047</p>
+      <p>Email: r10432@student.thomasmore.be</p>
+      <p>Linkd-in: matesno@gmail.com</p>
+      <p>Discord: Gomes1234</p>
+      <form action="https://tm-statweb.be/forms.php" method="post">
+        <div class="modal-body colform">
+          <div class="row">
+            <div class="col-md">
+              <div class="mb-3">
+                <label for="Voornaam" class="form-label">Voornaam</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Voornaam"
+                  aria-describedby="Voornaam"
+                  required
+                  placeholder="Voornaam"
+                />
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="mb-3">
+                <label for="Famielienaam" class="form-label"
+                  >Famielienaam</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Famielienaam"
+                  aria-describedby="Famielienaam"
+                  required
+                  placeholder="Famielienaam"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="mb-3 color">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="name@example.com"
+            />
+          </div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Interesse in skils</option>
+            <option value="1">CSS</option>
+            <option value="2">C#</option>
+            <option value="3">SQL</option>
+            <option value="1">HTML</option>
+            <option value="2">Bootstrap</option>
+            <option value="3">Autocad</option>
+          </select>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Vragen</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button type="submit" class="btn btn-primary">Verzenden</button>
+        </div>
+      </form>
+    </div>
+    <footer class="text-center fw-bold mt-5">
+      <p>
+        &copy; 2024 - Nuno Mateus M
+        <span class="badge text-bg-danger"><i class="bi bi-book"></i></span>
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
